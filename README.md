@@ -149,11 +149,9 @@ You need a copy of the project on your computer.
 **Option A: Clone with Git**
 
 ```bash
-git clone https://github.com/YourUsername/python-conditions-loops-assessment.git
+git clone https://github.com/abdulraffay54/python-conditions-loops-assessment
 cd python-conditions-loops-assessment
 ```
-
-Replace `YourUsername` with the GitHub username that owns the repository.
 
 **Option B: Download the ZIP file**
 
