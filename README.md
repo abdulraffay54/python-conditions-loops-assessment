@@ -15,13 +15,19 @@ The project demonstrates only the topics required by the assessment:
 
 ### Project Files
 
-| File | Purpose |
-|---|---|
-| `student_scholarship_system.py` | Checks whether a student is eligible for a scholarship. |
-| `pharmacy_inventory_system.py` | Processes pharmacy sales and prints a daily sales report. |
-| `README.md` | Explains the project and how to run it. |
+
+| File                            | Purpose                                                   |
+| ------------------------------- | --------------------------------------------------------- |
+| `student_scholarship_system.py` | Checks whether a student is eligible for a scholarship.   |
+| `pharmacy_inventory_system.py`  | Processes pharmacy sales and prints a daily sales report. |
+| `README.md`                     | Explains the project and how to run it.                   |
+
+
+
 
 ## Explanation of Both Programs
+
+
 
 ### Task 1: Student Scholarship Eligibility System
 
@@ -43,22 +49,26 @@ Python error traceback.
 
 If the input is valid, the program checks these rules:
 
-| Requirement | Rule |
-|---|---|
-| Academic marks | At least 80% |
-| Attendance | At least 85% |
-| Monthly family income | Rs. 50,000 or less |
-| Full Scholarship | All rules are met and marks are 90% or above |
-| Partial Scholarship | All rules are met and marks are 80% to 89% |
+
+| Requirement           | Rule                                         |
+| --------------------- | -------------------------------------------- |
+| Academic marks        | At least 80%                                 |
+| Attendance            | At least 85%                                 |
+| Monthly family income | Rs. 50,000 or less                           |
+| Full Scholarship      | All rules are met and marks are 90% or above |
+| Partial Scholarship   | All rules are met and marks are 80% to 89%   |
+
 
 The program can produce three results:
 
 - **Full Scholarship:** the student meets all requirements and has 90% or more
-  marks.
+marks.
 - **Partial Scholarship:** the student meets all requirements and has 80% to
-  89% marks.
+89% marks.
 - **Not Eligible:** at least one requirement is not met. The program lists every
-  reason that applies.
+reason that applies.
+
+
 
 ### Task 2: Smart Pharmacy Inventory & Sales Management System
 
@@ -97,12 +107,16 @@ For each valid medicine, the program:
 
 At the end, the program prints a daily sales report with these values:
 
-| Report line | Meaning |
-|---|---|
-| Total Medicines Entered | The number of medicine entries you asked to process. |
-| Medicines Successfully Processed | The number of sales that completed successfully. |
-| Total Pharmacy Revenue | The total money earned from successful sales. |
-| Medicines Requiring Restocking | Successful sales that left fewer than 10 units in stock. |
+
+| Report line                      | Meaning                                                  |
+| -------------------------------- | -------------------------------------------------------- |
+| Total Medicines Entered          | The number of medicine entries you asked to process.     |
+| Medicines Successfully Processed | The number of sales that completed successfully.         |
+| Total Pharmacy Revenue           | The total money earned from successful sales.            |
+| Medicines Requiring Restocking   | Successful sales that left fewer than 10 units in stock. |
+
+
+
 
 ## Python Concepts Covered
 
@@ -117,10 +131,14 @@ At the end, the program prints a daily sales report with these values:
 - Counters and accumulators
 - Basic input validation
 - Simple string checks such as `.strip()`, `.isdecimal()`, `.replace()`, and
-  `.startswith()`
+`.startswith()`
 - Formatted output with f-strings
 
+
+
 ## Instructions for Executing Both Programs
+
+
 
 ### 1. Check That Python Is Installed
 
@@ -142,6 +160,8 @@ On Windows, you can also try:
 py --version
 ```
 
+
+
 ### 2. Download the Project
 
 You need a copy of the project on your computer.
@@ -160,6 +180,8 @@ cd python-conditions-loops-assessment
 3. Extract the ZIP file.
 4. Open a terminal in the extracted project folder.
 
+
+
 ### 3. Run Task 1
 
 Run this command from the project folder:
@@ -173,6 +195,8 @@ If `python` is not found, use:
 ```bash
 python3 student_scholarship_system.py
 ```
+
+
 
 ### 4. Run Task 2
 
@@ -188,16 +212,22 @@ If `python` is not found, use:
 python3 pharmacy_inventory_system.py
 ```
 
+
+
 ### Notes
 
 - The programs are interactive. After you start one, it waits for you to enter
-  the requested values and press Enter.
+the requested values and press Enter.
 - The programs do not save data to a file. Everything you enter is lost when the
-  program ends.
+program ends.
 - Each program runs once and then exits. To use it again, run the command again.
 - You can stop a program at any time with `Ctrl+C`.
 
+
+
 ## Sample Input/Output for Both Applications
+
+
 
 ### Task 1: Scholarship System
 
@@ -236,6 +266,8 @@ Enter attendance percentage (%): 90
 Enter monthly family income (Rs.): 30000
 Invalid Input! Academic marks must be a number.
 ```
+
+
 
 ### Task 2: Pharmacy System
 
@@ -307,8 +339,9 @@ That medicine is not counted as successfully processed.
 
 ## Author
 
-**Abdul Rafay**
+**Abdul Rafay Ahmad**
 
 Created as part of the Python Conditions & Loops Assessment.
 
 ---
+
